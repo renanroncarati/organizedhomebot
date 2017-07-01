@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.ReceiveMessage.Api", "OrganizedHome.ReceiveMessage.Api\OrganizedHome.ReceiveMessage.Api.csproj", "{1FDC6175-66CB-4E2F-A028-5C38F8A362AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.ReceiveMessage.Api.Tests", "OrganizedHome.ReceiveMessage.Api.Tests\OrganizedHome.ReceiveMessage.Api.Tests.csproj", "{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.DeliverMessage.Api", "OrganizedHome.DeliverMessage.Api\OrganizedHome.DeliverMessage.Api.csproj", "{37443E9C-6113-4105-81AB-630A46EB0965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.DeliverMessage.Api.Tests", "OrganizedHome.DeliverMessage.Api.Tests\OrganizedHome.DeliverMessage.Api.Tests.csproj", "{DE99283A-6978-4C5B-B24C-5A9731DE5629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.WrapperMessage.Api", "OrganizedHome.WrapperMessage.Api\OrganizedHome.WrapperMessage.Api.csproj", "{896F59A6-6D41-4EC8-B89B-8EFD1821CF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizedHome.WrapperMessage.Api.Tests", "OrganizedHome.WrapperMessage.Api.Tests\OrganizedHome.WrapperMessage.Api.Tests.csproj", "{79BFA93D-3ABD-42BC-A781-4E989566347C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CA9C7AEA-A92D-4A06-A713-E8759CD687C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDC6175-66CB-4E2F-A028-5C38F8A362AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDC6175-66CB-4E2F-A028-5C38F8A362AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDC6175-66CB-4E2F-A028-5C38F8A362AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDC6175-66CB-4E2F-A028-5C38F8A362AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37443E9C-6113-4105-81AB-630A46EB0965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37443E9C-6113-4105-81AB-630A46EB0965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37443E9C-6113-4105-81AB-630A46EB0965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37443E9C-6113-4105-81AB-630A46EB0965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE99283A-6978-4C5B-B24C-5A9731DE5629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE99283A-6978-4C5B-B24C-5A9731DE5629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE99283A-6978-4C5B-B24C-5A9731DE5629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE99283A-6978-4C5B-B24C-5A9731DE5629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896F59A6-6D41-4EC8-B89B-8EFD1821CF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F59A6-6D41-4EC8-B89B-8EFD1821CF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896F59A6-6D41-4EC8-B89B-8EFD1821CF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896F59A6-6D41-4EC8-B89B-8EFD1821CF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BFA93D-3ABD-42BC-A781-4E989566347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BFA93D-3ABD-42BC-A781-4E989566347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BFA93D-3ABD-42BC-A781-4E989566347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BFA93D-3ABD-42BC-A781-4E989566347C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2CAA21D-4C53-4B17-85F6-BEA9C58D0469} = {CA9C7AEA-A92D-4A06-A713-E8759CD687C2}
+		{DE99283A-6978-4C5B-B24C-5A9731DE5629} = {CA9C7AEA-A92D-4A06-A713-E8759CD687C2}
+		{79BFA93D-3ABD-42BC-A781-4E989566347C} = {CA9C7AEA-A92D-4A06-A713-E8759CD687C2}
+	EndGlobalSection
+EndGlobal
